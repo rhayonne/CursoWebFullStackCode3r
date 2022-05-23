@@ -37,4 +37,7 @@ console.log(!!(isAtivo = false)); //se valor atribuido da variavel é false
 
 
 console.log('Para finalizar');
-console.log(!!('' || null || 0 || 'text' || 123));
+console.log(!!('' || null || 0 || 'text' || 123)); // uma das condicoes é veradeira, o resultado vai ser veidadeiro
+
+let nome = 'lucas'
+console.log(nome || 'Desconhecido');
