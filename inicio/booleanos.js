@@ -16,3 +16,25 @@ isAtivo = false
 isativo = true */
 
 console.log(' os verdadeiros...');
+console.log(!!3);
+console.log(!!-1);
+console.log(' '); //espaco ou qualquer preenchimento é true
+console.log(!!'Texto');
+console.log(!![]); //Array vazio ou nao é verdadeiro
+console.log(!!{}); //objeto literal vazio ou nao
+console.log(!!Infinity);
+console.log(!!(isAtivo = true)); //verifica se o valor atribuido à variavel é verdadeiro ou nao
+
+
+
+console.log('Os falsos...');
+console.log(!!0);
+console.log('');//string vazia sem espaço nem nada
+console.log(!!null);
+console.log(!!NaN);
+console.log(!!undefined);
+console.log(!!(isAtivo = false)); //se valor atribuido da variavel é false
+
+
+console.log('Para finalizar');
+console.log(!!('' || null || 0 || 'text' || 123));
